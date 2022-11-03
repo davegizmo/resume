@@ -420,6 +420,10 @@ legend + * {
   clear: left;
 }
 
+.email {
+  text-decoration: none;
+}
+
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-text,
 ::-webkit-datetime-edit-minute,
