@@ -11437,3 +11437,23 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.html {
+  color: var(--bs-orange);
+}
+.css {
+  color: #0d6efd;
+}
+.js {
+  color: var(--bs-yellow);
+}
+.bootstrap {
+  color: var(--bs-purple);
+}
+.sass {
+  color: magenta;
+}
+
+.cert-link ~ a {
+  text-decoration: none;
+}
