@@ -11413,6 +11413,7 @@ p.lead {
 
 section.resume-section {
   display: flex;
+  gap: 3rem;
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -11424,9 +11425,20 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+@media (max-width: 690px) {
+  section.resume-section {
+    min-height: 100vh;
+    flex-wrap: wrap;
+  }
+
+  section.resume-section:not(.resume-section-content) {
+    justify-content: center;
+  }
+}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+    gap: 4rem;
   }
 }
 @media (min-width: 992px) {
@@ -11438,6 +11450,9 @@ section.resume-section .resume-section-content {
   }
 }
 
+.react {
+  color: #61DBFB;
+}
 .html {
   color: var(--bs-orange);
 }
@@ -11452,6 +11467,14 @@ section.resume-section .resume-section-content {
 }
 .sass {
   color: magenta;
+}
+.git {
+  color: #f34f29;
+}
+
+.credly {
+  display: flex;
+  justify-self: center;
 }
 
 .cert-link ~ a {
