@@ -11462,6 +11462,10 @@ section.resume-section .resume-section-content {
 .js {
   color: var(--bs-yellow);
 }
+.tailwind-css {
+  width: auto;
+  max-width: 80px;
+}
 .bootstrap {
   color: #563d7c;
 }
@@ -11470,6 +11474,10 @@ section.resume-section .resume-section-content {
 }
 .git {
   color: #f34f29;
+}
+.npm {
+  font-size: 35px;
+  color: #CC3534;
 }
 
 .credly {
